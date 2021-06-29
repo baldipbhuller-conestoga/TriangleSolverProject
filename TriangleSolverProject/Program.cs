@@ -39,7 +39,10 @@ namespace TriangleSolverProject
                             Console.Write("Changed 3rd integer: ");
                             thirdSide = Convert.ToInt32(Console.ReadLine());
 
+                            // Call to Analyze
+
                             break;
+
                         default:
                             if (option != 2)
                             {
