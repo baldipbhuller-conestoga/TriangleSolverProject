@@ -33,13 +33,14 @@ namespace TriangleSolverProject
                             Console.Write("Enter 1st integer: ");
                             firstSide = Convert.ToInt32(Console.ReadLine());
 
-                            Console.Write("Changed 2nd integer: ");
+                            Console.Write("Enter 2nd integer: ");
                             secondSide = Convert.ToInt32(Console.ReadLine());
 
-                            Console.Write("Changed 3rd integer: ");
+                            Console.Write("Enter 3rd integer: ");
                             thirdSide = Convert.ToInt32(Console.ReadLine());
 
                             // Call to Analyze
+                            Console.WriteLine("Result: {0}", TriangleSolver.Analyze(firstSide, secondSide, thirdSide));
 
                             break;
 
